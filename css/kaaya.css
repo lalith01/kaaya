@@ -195,4 +195,13 @@ body
     {
         width : 15%;
     }
+    .navbar-brand 
+    {
+        font-family: "Ubuntu";
+        font-size: 2.0rem !important;
+    }
+    .navbar 
+    {
+        padding: 0 0 2rem 0 !important;
+    }
 }
