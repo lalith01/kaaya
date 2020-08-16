@@ -7,7 +7,7 @@ body
 #sec1
 {
   background-color: #0779e4;
-  padding: 3% 12% 3% 12% !important;
+  padding: 4% 13% 4% 13% !important;
 }
 
 .heading1
@@ -25,15 +25,16 @@ body
   padding-bottom: 10%;
 }
 
-.logo
+
+.navbar-brand
 {
-  width: 50%;
-  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.3rem !important;
 }
 
 .nav-link
 {
-  font-size: 1.3rem !important;
+  font-size: 1.5rem !important;
   margin-right: 50px;
 }
 
@@ -49,9 +50,7 @@ body
 
 .sleep
 {
-  width: 78%;
-  display: block;
-  margin: 0% 30%;
+  width: 70%;
 }
 
 
@@ -185,246 +184,15 @@ body
   color: #3f4441;
 }
 
-body
+@media(max-width :360px)
 {
-  background-color: #fff;
-}
-
-/*Introduction*/
-#sec1
-{
-  background-color: #0779e4;
-  padding: 3% 12% 3% 12% !important;
-}
-
-.heading1
-{
-  font-family: 'Ubuntu', sans-serif;
-  color: #fff;
-  font-size: 3.5rem;
-}
-
-.subheading1
-{
-  font-family: 'Inter', sans-serif;
-  color: #1b262c;
-  padding-top: 3%;
-  padding-bottom: 10%;
-}
-
-.logo
-{
-  width: 50%;
-  display: inline-block;
-}
-
-.nav-link
-{
-  font-size: 1.3rem !important;
-  margin-right: 50px;
-}
-
-.r1
-{
-  padding: 2% 0 0 0;
-}
-
-.dbtn
-{
-  margin: 0% 3% 5% 0%;
-}
-
-.sleep
-{
-  width: 78%;
-  display: block;
-  margin: 0% 30%;
-}
-
-
-.sec2
-{
-  padding: 7% 18%;
-  background: #fff;
-  text-align: center;
-}
-
-.icon{
-  padding-bottom: 5%;
-}
-
-.fea
-{
-  font-style: font-family: 'Ubuntu', sans-serif;
-  font-size: 2rem;
-  font-weight:bold;
-  padding-bottom: 3%;
-}
-
-.des
-{
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  color: #4b5d67;
-}
-
-.icon
-{
-  color: #318fb5;
-}
-
-.icon:hover
-{
-  color: #0779e4;
-}
-
-
-.testimonials-img
-{
-  width: 7%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-.sec3
-{
-  background-color:  #0779e4;
-  padding: 7% 15%;
-  text-align: center;
-
-}
-
-.testimonial-text
-{
-  font-style: font-family: 'Ubuntu', sans-serif;
-  font-size: 2rem;
-  color: #fff;
-  font-weight:bold;
-}
-
-
-#sec4
-{
-  background-color:  #fff;
-  padding: 8% 15%;
-}
-
-.testimg
-{
-  width: 10%;
-}
-
-.testimg1
-{
-  float: left;
-  text-align: center;
-  padding-right: 1%;
-}
-
-.testimg2
-{
-  float: right;
-  text-align: center;
-  padding-left: 1%;
-}
-
-.staff1
-{
-  padding-top: 5%;
-}
-
-
-#sec5
-{
-  background-color: #0779e4;
-  padding: 5% 15%;
-  text-align: center;
-}
-
-#btn
-{
-  color: #222831;
-  text-decoration: none;
-}
-
-
-#footer
-{
-  text-align: center;
-  padding: 1% 15%;
-}
-
-.last
-{
-  font-style: "Montserrat";
-  font-size: 3.5rem !important;
-  line-height: 1.5;
-  color: #fff;
-}
-
-.social
-{
-  margin: 20px 10px;
-}
-
-.social:hover
-{
-  color: #3f4441;
-}
-
-@media(max-width:360px) {
-    
-    .navbar {
-        padding: 0 0 2rem 0 !important;
+    .heading1
+    {
+        font-size:2.5rem;
     }
     
-    .heading1 {
-        font-family: 'Ubuntu', sans-serif;
-        color: #fff;
-        font-size: 2.8rem;
-    }
-
-    .subheading1 {
-        font-family: 'Inter', sans-serif;
-        color: #1b262c;
-        font-size: 2rem;
-        padding-top: 3%;
-        padding-bottom: 10%;
-    }
-
-    .sleep {
-        margin: 5% 0% 5% 0%;
-    }
-
-    .testimonial-text {
-        font-style: font-family: 'Ubuntu', sans-serif;
-        font-size: 2rem;
-        color: #fff;
-        font-weight: bold;
-    }
     .testimonials-img
     {
-        width : 20%;
+        width : 15%;
     }
-    
-.tp
-{
-    font-size : 1rem;
-}
-.wp
-{
-    font size : 2rem;
-}
-.wp1
-{
-    font size : 1.5rem;
-}
-.wp2
-{
-    font size :1rem;
-}
-.last
-{
-    font size : 2.5rem;
-}
 }
